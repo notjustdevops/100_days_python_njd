@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T13:06:13.697Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NL-PfljB-js8AB4R_4Dy" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-21T13:22:08.540Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xL_A6CT5dHcqB_Jd6CY9" version="22.1.21" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2ugnmzU8NUE2r2qJuOM5-0" target="2ugnmzU8NUE2r2qJuOM5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-0" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2ugnmzU8NUE2r2qJuOM5-1" target="2ugnmzU8NUE2r2qJuOM5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-1" value="The user and the computes should both get 2 random cards." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="120" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2ugnmzU8NUE2r2qJuOM5-3" target="2ugnmzU8NUE2r2qJuOM5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-3" value="Add up the users and computers score." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2ugnmzU8NUE2r2qJuOM5-5" target="2ugnmzU8NUE2r2qJuOM5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-5" value="Does the user or the&lt;br&gt;computer has a Blackjack?&amp;nbsp;&lt;br&gt;(ace + 10)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="340" width="180" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2ugnmzU8NUE2r2qJuOM5-7" target="2ugnmzU8NUE2r2qJuOM5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-7" value="Is user&#39;s score&lt;br&gt;is over 21?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="510" width="130" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-9" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="468" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2ugnmzU8NUE2r2qJuOM5-10" target="2ugnmzU8NUE2r2qJuOM5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-10" value="Ask the user &lt;br&gt;if they want to have &lt;br&gt;anothe card?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="680" width="160" height="98.75" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-12" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="628" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2ugnmzU8NUE2r2qJuOM5-13" target="2ugnmzU8NUE2r2qJuOM5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-13" value="Computer plays, if score is less than 17, keep drawing cards." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="830" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2ugnmzU8NUE2r2qJuOM5-15" target="2ugnmzU8NUE2r2qJuOM5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2ugnmzU8NUE2r2qJuOM5-15" target="2ugnmzU8NUE2r2qJuOM5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-15" value="Has computer &lt;br&gt;gone over &lt;br&gt;the 21?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="950" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-17" value="Win" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#99FF99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="987.5" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-19" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="978" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2ugnmzU8NUE2r2qJuOM5-20" target="2ugnmzU8NUE2r2qJuOM5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-20" value="Compare user score &lt;br&gt;with computer score to see &lt;br&gt;if user score is higher?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="315" y="1140" width="190" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-22" value="Lose" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FF99FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="1188.75" width="70" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-24" value="User score" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="1168" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2ugnmzU8NUE2r2qJuOM5-25" value="Lower" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="505" y="1210" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
