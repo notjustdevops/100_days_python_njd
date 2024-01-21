@@ -64,7 +64,7 @@ from art import logo
 print(logo)
 
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
-def deal_card():
+
 
 
 #Hint 5: Deal the user and computer 2 cards each using deal_card() and append().
