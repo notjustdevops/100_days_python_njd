@@ -1,35 +1,23 @@
-#Import Random
-from random import randint
+# FROM Random import randint
+# Import Game Data
+# Import Logo
+# Import Function to clear the screen
 
-#Create library - ready.
+
+# Print the logo
+# print()
+print("Click Run to run the final project you will build. ")
 
 
-# Generate random number to pick from the library
-# Random Pick firts key: value
 
-# Generate random number to pick from the library
-# Random Pick a second number
+# Generate a random from game_data
+# Print the random data
+# print(random_data)
 
-# Print First "Key" has "Value" average monthly searches
-# vs 
-# Print Second "Key" has "Value" average monthly searches
 
-# Ask if the second key:value pair has a more monthly searches?
-# input: 'Higher' enter h, for lower enter l lower()
 
-# Compare: Checjk if the second value highrt or lower.
-# If second value Higher or Lower is True   - second key:value becomes first
-# Continue to play
-# Pick new pair from game_data - it becoms second
 
-# If answer for  HIgher or Lower is False
-# End the Game
-# Print Score
-# Ask if player wants to play a new game  
 
-# Count the score
-# Print the current score
-
-# Collect the score of each game 
-# Print the Highest Score of the previous games
+# Sorry, that's wrong. Final score: (score)
+# That's right! Current score: (score)
 
