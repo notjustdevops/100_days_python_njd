@@ -1,23 +1,58 @@
-# FROM Random import randint
-# Import Game Data
-# Import Logo
-# Import Function to clear the screen
+import random
+import os
+from art import logo, vs
+from game_data import data
 
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
-# Print the logo
-# print()
-print("Click Run to run the final project you will build. ")
+def generate_random_data(exclude=None):
+    choice = random.choice(data)
+    while choice == exclude:
+        choice = random.choice(data)
+    return choice
 
+def format_data(account):
+    return f"{account['name']}, a {account['description']}, from {account['country']}"
 
+def check_answer(guess, a_followers, b_followers):
+    return (guess == 'a' and a_followers > b_followers) or (guess == 'b' and b_followers > a_followers)
 
-# Generate a random from game_data
-# Print the random data
-# print(random_data)
+def play_game():
+    score = 0
+    account_a = generate_random_data()
+    account_b = generate_random_data(exclude=account_a)
 
+    while True:
+        clear_screen()
+        print(logo)
+        if score > 0:
+            print(f"You're right! Current score: {score}")
+        print(f"Compare A: {format_data(account_a)}")
+        print(vs)
+        print(f"Against B: {format_data(account_b)}")
 
+        guess = input("Who has more followers? Type 'A' or 'B': ").lower()
+        while guess not in ['a', 'b']:
+            print("Invalid input. Please type 'A' or 'B'.")
+            guess = input("Who has more followers? Type 'A' or 'B': ").lower()
 
+        is_correct = check_answer(guess, account_a['follower_count'], account_b['follower_count'])
 
+        if is_correct:
+            score += 1
+            account_a = account_b
+            account_b = generate_random_data(exclude=account_a)
+        else:
+            print(f"Sorry, that's wrong. Final score: {score}")
+            break
 
-# Sorry, that's wrong. Final score: (score)
-# That's right! Current score: (score)
+    if input("Restart the game? Type 'Y' or 'N': ").lower() == 'y':
+        play_game()
+    else:
+        print("Goodbye")
 
+if __name__ == "__main__":
+    play_game()
+    
+    
