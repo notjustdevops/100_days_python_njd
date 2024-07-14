@@ -1,0 +1,57 @@
+# The Machine Has 3 Flavors
+
+    1. Espresso
+        --> Price $1.50
+        --> Recipie
+            50ml Water
+            18g Coffee
+
+    2. Latte
+        --> Price $2.50
+        --> Recipie
+            200ml Water
+            24g Coffee
+            150ml Milk
+
+    3. Capupuccino
+        --> Price $3.00
+        --> Recipie
+            250ml Water
+            24g Coffee
+            100ml Milk
+
+
+# Managed Resources at the start
+
+    300ml Water
+    100g Coffee
+    200ml Milk
+
+
+# Coin Operated
+
+    Penny  = 1  Cent 
+    Nickel = 5  Cents 
+    Dime   = 10 Cents
+    Quater  = 25 Cents 
+
+    --> IF Statments
+
+
+# Program Requerments
+
+    1. Print Report 
+        --> How much Water has left
+        --> How much Coffee has left
+        --> How much Milk has left
+
+    2. Check Resourxes Sufficient
+        --> Check all the Resources
+        --> Check against the reciepie
+        --> Tells the user if some resource is insuficcient
+        --> As long one of the resousrces is insuficcient,
+            the machine tells "Sorry, there are not enough
+            f"{resource}"
+
+    
+
